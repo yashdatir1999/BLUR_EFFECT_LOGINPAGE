@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.bg{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1461784121038-f088ca1e7714?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    
+}
+.blur{
+    height: 70%;
+    width: 40%;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    position: absolute;
+    top: 15%;
+    right: 30%;
+    box-shadow: -5px -5px 5px rgba(77, 69, 69, 0.534) ;
+    backdrop-filter: blur(7px);
+}
+.login-btn{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+form{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+input{
+    padding: 7px 35px;
+    color: white;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.432) ,rgba(255, 255, 255, 0.281));
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+input:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+input::placeholder{
+    color: whitesmoke;
+    font-size: 15px;
+    
+}
+span{
+    font-size: 17px;
+    color: white;
+}
+.hedding{
+    position: absolute;
+    top: 7%;
+    left: 20%;
+    font-size: 45px;
+    font-family: 'Caveat', cursive;
+    text-shadow: 0 0 50px white ;
+}
